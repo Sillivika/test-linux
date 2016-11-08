@@ -1,0 +1,28 @@
+#H5
+
+Tehtävä sivulta http://terokarvinen.com/2016/aikataulu-palvelinten-hallinta-ict4tn022-1-5-op-uusi-ops-loppusyksy-2016
+
+Asensin gitin koneelleni jota olen käyttänyt edellisissä tehtävissä.
+Seurasin http://terokarvinen.com/2016/publish-your-project-with-github olleita ohjeita ja syötin seuraavat komennot.
+Komentojen tiedot tietenkin muokkasin vastaamaan omia tietojani ja repositoryn osoitteen sain Github sivulta.
+sudo apt-get -y install git
+
+git config --global user.email "tonystudent@example.com"
+
+git config --global user.name "Tony Student"
+
+git config --global credential.helper "cache --timeout=3600
+
+git clone https://github.com/hattupuu/earplotter.git
+
+git add .
+
+git status
+
+git commit
+
+git pull
+
+git push
+
+Lopuksi refreshasin Github sivuston ja näin että tekemäni muutokset olivat ilmestyneet repositoryyn.
